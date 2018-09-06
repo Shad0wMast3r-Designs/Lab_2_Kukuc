@@ -2,3 +2,14 @@
 Professor Krieglstein
 9-5-2018
 Lab 2 CSS Page */
+
+.center {
+	text-align: center;
+}
+
+body {
+	background-color: #3e4444;
+	font-family: "Arial";
+	color: white;
+	font-size:20px;
+}
