@@ -545,3 +545,23 @@ body {
 	color: white;
 	font-size:20px;
 }
+
+input[type=text] {
+	margin-right:auto;
+	margin-left:auto;
+}
+
+input[type=date] {
+	margin-right:auto;
+	margin-left:auto;
+}
+
+input[type=submit] {
+	margin-right:auto;
+	margin-left:auto;
+}
+
+input[type="email"] {
+	margin-right:auto;
+	margin-left:auto;
+}
