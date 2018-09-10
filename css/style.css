@@ -291,21 +291,25 @@ body {
 input[type=text] {
 	margin-right:auto;
 	margin-left:auto;
+	margin-top:20px;
 }
 
 input[type=date] {
 	margin-right:auto;
 	margin-left:auto;
+	margin-top:20px;
 }
 
 input[type=submit] {
 	margin-right:auto;
 	margin-left:auto;
+	margin-top:20px;
 }
 
 input[type="email"] {
 	margin-right:auto;
 	margin-left:auto;
+	margin-top:20px;
 }
 
 @-webkit-keyframes colorchange {
