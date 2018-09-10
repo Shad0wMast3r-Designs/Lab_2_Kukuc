@@ -271,6 +271,7 @@ textarea {
 }
 
 label {
+	margin-bottom:20px;
 	margin-right:auto;
 	margin-left:auto;
 	padding-right:80px;
