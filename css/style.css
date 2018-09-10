@@ -294,12 +294,14 @@ input[type=text] {
 	margin-right:auto;
 	margin-left:auto;
 	margin-top:20px;
+	margin-bottom:20px;
 }
 
 input[type=date] {
 	margin-right:auto;
 	margin-left:auto;
 	margin-top:20px;
+	margin-bottom:20px;
 }
 
 input[type=submit] {
@@ -312,6 +314,7 @@ input[type="email"] {
 	margin-right:auto;
 	margin-left:auto;
 	margin-top:20px;
+	margin-bottom:20px;
 }
 
 p {
