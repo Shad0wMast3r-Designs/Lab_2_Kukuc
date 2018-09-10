@@ -512,8 +512,31 @@ h1{
 }
 
 /*My Code*/
-.center {
-	text-align: center;
+ legend {
+	float:none;
+	background-color:#3e4444;
+	font-family:"Arial";
+	margin-right:auto;
+	margin-left:auto;
+	width: 100%;
+	text-align:center;
+	color:white;
+}
+
+label {
+	background-color:#3e4444;
+	font-family:"Arial";
+	color:"white";
+	margin-right:auto;
+	margin-left:auto;
+}
+
+fieldset {
+	background-color:#3e4444;
+	font-family:"Arial";
+	color:"white";
+	margin-right:auto;
+	margin-left:auto;
 }
 
 body {

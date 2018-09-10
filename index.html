@@ -1,22 +1,42 @@
 <!DOCTYPE html-->
 <!--Andy Kukuc-->
 <!--Professor Daniel Krieglstein-->
-<!--ITMD362-->
 <!--9/5/2018-->
-<!--Lab 2-->
 
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<title>Lab 2 Form</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8"/>
+	<title>Lab 2 Form</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body id="home">
-	<div>
-		<label>First Name:
-			<input type="text" name="first_name_field">
-		</label>
-	</div>
-</body>	
+	<form method="get" action="#null">
+		<fieldset>
+			<legend>Form</legend>
+			<div>
+				<label>Name:</label>
+				<input type="text" name="name" placeholder="Monty Python">
+			</div>
+			<div>
+				<label>E-Mail:</label>
+				<input type="email" name="email_field" placeholder="example@example.com">
+			</div>
+			<div>
+				<label>Phone Number:</label>
+				<input type="text" name="phone_field" placeholder="(123)-345-7890">
+			</div>
+			<div>
+				<label>Please Enter Your Birthday:</label>
+				<input type="date" name="birth_field">
+			</div>
+			<div>
+				<input type="submit" value="Submit">
+			</div>
+		</fieldset>
+	</form>
+</body>
 </html>
+				
+
 
