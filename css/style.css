@@ -257,7 +257,7 @@ textarea {
 }
 
 /*My Code*/
- legend {
+ h1{
 	float:none;
 	font-family:"Arial";
 	margin-right:auto;
