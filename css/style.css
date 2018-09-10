@@ -265,6 +265,9 @@ textarea {
 	width: 100%;
 	text-align:center;
 	font-weight:bold;
+	font-size:50px;
+	padding-bottom:25px;
+	animation:colorchange 10s infinite alternate;
 }
 
 label {
@@ -273,6 +276,7 @@ label {
 }
 
 fieldset {
+	padding-bottom:25px;
 	margin-right:auto;
 	margin-left:auto;
 }
@@ -303,4 +307,60 @@ input[type="email"] {
 	margin-right:auto;
 	margin-left:auto;
 }
+
+@-webkit-keyframes colorchange {
+      0% {
+        
+        color: white;
+      }
+      
+      10% {
+        
+        color: pink;
+      }
+      
+      20% {
+        
+        color: white;
+      }
+      
+      30% {
+        
+        color: pink;
+      }
+      
+      40% {
+        
+        color: white;
+      }
+      
+      50% {
+        
+        color: pink;
+      }
+      
+      60% {
+        
+        color: white;
+      }
+      
+      70% {
+        
+        color: pink;
+      }
+      80% {
+     
+        color: white;
+      }
+      
+      90% {
+     
+        color: pink;
+      }
+      
+      100% {
+        
+        color: white;
+      }
+    }
 
